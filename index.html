@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Acme|Righteous" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
     <title>Crystal Collector</title>
 </head>
 
@@ -34,14 +34,14 @@
         </div>
         <div class="score">
             <p>Your total score is:
-                <span id "total"></span>
+                <span id="total"></span>
             </p>
         </div>
         <div class="crystals">
-            <button><img src="./images/crystal1.png" alt="" class="crystal1"></button>
-            <button><img src="./images/Crystal2.jpg" alt="" class="crystal2"></button>
-            <button><img src="./images/Crystal4.jpg" alt="" class="crystal3"></button>  
-            <button><img src="./images/Crystal3.png" alt="" class="crystal4"></button>
+            <button><img src="./images/crystal1.png" alt="" id="crystal1"></button>
+            <button><img src="./images/Crystal2.jpg" alt="" id="crystal2"></button>
+            <button><img src="./images/Crystal4.jpg" alt="" id="crystal3"></button>  
+            <button><img src="./images/Crystal3.png" alt="" id="crystal4"></button>
         </div>
         <div class="results">
             <p>Wins:
@@ -53,6 +53,7 @@
             </p>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="./javascript/game.js"></script>
 </body>
 
