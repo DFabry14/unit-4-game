@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Righteous" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <title>Crystal Collector</title>
+</head>
+
+<body>
+    <h1 class="display-4">◊ The Crystal Collector ◊</h1>
+    </div>
+    <div class="instructions">
+        <p>• You will be given a random number at the start of the game.</p>
+        <p>• There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total
+            score.
+        </p>
+        <p>• You win the match by matching your total score to random number, you lose the game if your total score goes over
+            the random number.</p>
+        <p>• The value of each crystal is hidden until you click on it.</p>
+        <p>• Each time the game restarts it will change the value of the crystals.</p>
+    </div>
+    <div class="game">
+        <div class="winner">
+            <h2>Goal:</h2>
+            <span id="goal"></span>
+        </div>
+        <div class="score">
+            <p>Your total score is:
+                <span id "total"></span>
+            </p>
+        </div>
+        <div class="crystals">
+            <button><img src="./images/crystal1.png" alt="" class="crystal1"></button>
+            <button><img src="./images/Crystal2.jpg" alt="" class="crystal2"></button>
+            <button><img src="./images/Crystal4.jpg" alt="" class="crystal3"></button>  
+            <button><img src="./images/Crystal3.png" alt="" class="crystal4"></button>
+        </div>
+        <div class="results">
+            <p>Wins:
+                <span id="wins"></span>
+            </p>
+            <p>Losses:
+                <span id="losses"></span>
+                <br>
+            </p>
+        </div>
+    </div>
+    <script src="./javascript/game.js"></script>
+</body>
+
+</html>
